@@ -60,19 +60,15 @@ public class RSSReader {
 			if (sourceUrl != null) {
 				// create the HttpURLConnection
 				URL url = new URL(sourceUrl);
-
 				HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 				// want to do an HTTP GET here
 				connection.setRequestMethod("GET");
-
 				// give it 15 seconds to respond
 				connection.setReadTimeout(15 * 1000);
 				connection.connect();
-
 				// read the output from the server
 				reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 				stringBuilder = new StringBuilder();
-
 				String line = null;
 				while ((line = reader.readLine()) != null) {
 					stringBuilder.append(line + "\n");

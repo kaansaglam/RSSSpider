@@ -52,7 +52,7 @@ public class MenuPrinter {
 
 	private void printSourceNames(List<String> sourceNames) {
 		for (int i = 0; i < sourceNames.size(); i++) {
-			System.out.println(sourceNames.get(i) + "  news  ---> " + i + "\n");
+			System.out.println(sourceNames.get(i) + "  news  ---> " + (i + 1) + "\n");
 		}
 	}
 

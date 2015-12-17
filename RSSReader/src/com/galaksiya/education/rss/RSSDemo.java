@@ -36,10 +36,11 @@ public class RSSDemo {
 			Entry entryObj = new Entry();
 			FeedMetaDataMenager menageMetaData = new FeedMetaDataMenager();
 			UserInteraction interaction = UserInteraction.getInstance();
-			// ask to user add a URI or read already exist URI..
-			interaction.getUserPreferences();
 			RSSReader reader = new RSSReader();
 			EntryWriter writer = new EntryWriter();
+
+			// ask to user add a URI or read already exist URI..
+			interaction.getUserPreferences();
 
 			while (interaction.getAddOrRead() == 2) {
 				// the method is for add a new news source..

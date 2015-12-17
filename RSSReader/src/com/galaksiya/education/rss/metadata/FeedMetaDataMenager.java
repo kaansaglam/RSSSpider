@@ -12,8 +12,8 @@ import com.galaksiya.education.rss.common.Info;
 import com.sun.syndication.io.FeedException;
 
 /**
- * open the file and get URL and query method. check a source is already exist
- * and add new source.
+ * open the file and get URL & query method. Check a source, is already exist?
+ * if not add new source.
  * 
  * @author galaksiya
  */

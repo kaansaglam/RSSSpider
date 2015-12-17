@@ -52,15 +52,15 @@ public class WriterTest {
 		int isEmpty = 0;
 
 		// if file is empty return 1;
-		BufferedReader br = new BufferedReader(new FileReader(filePath));
-		try {
+
+		try (BufferedReader br = new BufferedReader(new FileReader(filePath));) {
 			if (br.readLine() == null) {
 				isEmpty = 1;
 			}
 		} catch (IOException e) {
 			log.warn("IO exception", e);
 		}
-		br.close();
+
 		assertEquals(0, isEmpty);
 
 	}

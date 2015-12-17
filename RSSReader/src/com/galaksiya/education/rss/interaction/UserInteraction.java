@@ -23,8 +23,7 @@ public class UserInteraction {
 	}
 
 	/**
-	 * Ask to user for choose a option. get inputs from user 
-	 * * @throws
+	 * Ask to user for choose a option. get inputs from user * @throws
 	 * IOException
 	 */
 	public void getUserPreferences() throws IOException {
@@ -41,7 +40,6 @@ public class UserInteraction {
 				System.out.println("add a name ");
 				scanner.nextLine();
 				name = scanner.nextLine();
-
 				System.out.println("add a new RSS URL: ");
 				link = scanner.nextLine();
 				do {

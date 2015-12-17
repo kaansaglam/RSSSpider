@@ -5,7 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.text.ParseException;
-import java.util.Date;
 
 import org.apache.log4j.Logger;
 import org.jsoup.Jsoup;
@@ -22,7 +21,6 @@ public class EntryWriter {
 	 * @author galaksiya
 	 *
 	 */
-	private Date lastPublishDate;
 	private static Logger log = Logger.getLogger(EntryWriter.class);
 
 	public void writeFeedEntry(Entry obj) throws ParseException {
@@ -35,8 +33,7 @@ public class EntryWriter {
 
 			output.append("\nTitle        : " + obj.getTitle());
 			output.append("\nLink         : " + obj.getLink());
-			setLastPublishDate(obj.getDate());
-			output.append("\nPublish Date : " + getLastPublishDate());
+			output.append("\nPublish Date : " + obj.getDate());
 			// call getContent method and parse rss content.
 			output.append("\nContent      : " + getContent(obj.getLink(), obj.getMethod()) + "\n\n\n");
 
@@ -58,13 +55,4 @@ public class EntryWriter {
 		content = archived.text();
 		return content;
 	}
-
-	public Date getLastPublishDate() {
-		return lastPublishDate;
-	}
-
-	public void setLastPublishDate(Date lastPublishDate) {
-		this.lastPublishDate = lastPublishDate;
-	}
-
 }

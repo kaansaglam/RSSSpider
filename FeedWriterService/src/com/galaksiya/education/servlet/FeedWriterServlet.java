@@ -30,17 +30,15 @@ public class FeedWriterServlet extends HttpServlet {
 		response.setContentType("application/json;charset=UTF-8");
 		// read json content..
 		StringBuilder sb = new StringBuilder();
-		BufferedReader reader = request.getReader();
-		try {
+
+		try (BufferedReader reader = request.getReader();) {
 			String line;
 			while ((line = reader.readLine()) != null) {
 				sb.append(line).append('\n');
 			}
-		} finally {
-			reader.close();
 		}
 		Gson gson = new Gson();
-		// set json content to a object
+		// set json content as a object
 		Entry obj = gson.fromJson(sb.toString(), Entry.class);
 		try {
 			// call writer method.

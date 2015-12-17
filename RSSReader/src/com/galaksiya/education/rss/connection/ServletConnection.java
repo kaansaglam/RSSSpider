@@ -26,7 +26,6 @@ public class ServletConnection {
 		BasicConfigurator.configure();
 
 		try {
-
 			DefaultHttpClient httpClient = new DefaultHttpClient();
 			HttpPost postRequest = new HttpPost(Info.SERVLET_URL);
 			JSONObject json = new JSONObject();

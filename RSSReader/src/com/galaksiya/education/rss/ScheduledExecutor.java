@@ -21,36 +21,40 @@ import com.galaksiya.education.rss.metadata.FeedMetaDataMenager;
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.io.FeedException;
 
-public class ScheduledExecutorDemo {
-	private static final Logger log = Logger.getLogger(ScheduledExecutorDemo.class);
+public class ScheduledExecutor {
+	private static final Logger log = Logger.getLogger(ScheduledExecutor.class);
 
 	public static void main(String[] args) throws ParseException, IllegalArgumentException, IOException, FeedException {
 		Map<String, Date> feedTimeMap = new HashMap<String, Date>();
 		int sourceCount = new MenuPrinter().getSourceCount();
-		ExecutorService executorService = Executors.newFixedThreadPool(sourceCount);
-		Runnable runnable = new Runnable() {
-			public void run() {
-				for (int i = 1; i <= sourceCount; i++) {
-					final int count = i;
-					executorService.submit(new Runnable() {
-						@Override
-						public void run() {
-							runEntry(sourceCount, feedTimeMap, count);
-						}
-					});
+		if (sourceCount > 0) {
+			// execute all rss source simultaneous
+			ExecutorService executorService = Executors.newFixedThreadPool(sourceCount);
+			Runnable runnable = new Runnable() {
+				public void run() {
+					for (int i = 1; i <= sourceCount; i++) {
+						final int count = i;
+						executorService.submit(new Runnable() {
+							@Override
+							public void run() {
+								runEntry(feedTimeMap, count);
+							}
+						});
+					}
 				}
-			}
-		};
-		// run read cycle every 10 second.
-		ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
-		service.scheduleAtFixedRate(runnable, 0, 10, TimeUnit.SECONDS);
+			};
+			// run read cycle every 10 second.
+			ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
+			service.scheduleAtFixedRate(runnable, 0, 60, TimeUnit.SECONDS);
+		}
 	}
 
-	// show all entries into console. after first run show only fresh entry.
-	public static void runEntry(int sourceCount, Map<String, Date> feedTimeMap, int i) {
-		RSSReader reader = new RSSReader();
-		ServletConnection connect = new ServletConnection();
+	// send all entries on localhost. after first run, check only fresh entry.
+	public static void runEntry(Map<String, Date> feedTimeMap, int i) {
 
+		RSSReader reader = new RSSReader();
+		// connection to send data on localhost
+		ServletConnection connect = new ServletConnection();
 		FeedMetaDataMenager menageData = new FeedMetaDataMenager();
 		FreshEntryFinder compareDates = new FreshEntryFinder();
 		try {
@@ -79,6 +83,7 @@ public class ScheduledExecutorDemo {
 					if (freshEntry != null) {
 						connect.postRequest(freshEntry.getTitle(), freshEntry.getLink(), freshEntry.getPublishedDate(),
 								method);
+						// set last entry date
 						feedTimeMap.put(name, entry.getPublishedDate());
 					}
 					while (itEntries.hasNext()) {
