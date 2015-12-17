@@ -18,6 +18,7 @@ import com.galaksiya.education.rss.interaction.UserInteraction;
 import com.galaksiya.education.rss.metadata.FeedMetaDataMenager;
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.io.FeedException;
+import com.galaksiya.education.servlet.FeedWriterServlet.Entry;
 
 public class RSSDemo {
 	private static Logger log = Logger.getLogger(RSSDemo.class);
@@ -26,6 +27,7 @@ public class RSSDemo {
 			IllegalArgumentException, FeedException, IOException, ParseException {
 
 		try {
+			Entry entryObj = new Entry();
 			FeedMetaDataMenager menageMetaData = new FeedMetaDataMenager();
 			UserInteraction interaction = UserInteraction.getInstance();
 			interaction.getUserPreferences();
@@ -34,10 +36,10 @@ public class RSSDemo {
 
 			while (interaction.getAddOrRead() == 2) {
 				// the method is for add a new news source
-				addNewSource(interaction, menageMetaData, reader, writer);
+				addNewSource(interaction, menageMetaData, reader, writer, entryObj);
 			}
 			// the method is for show a source's feed
-			writeFeed(interaction, writer, menageMetaData, reader);
+			writeFeed(interaction, writer, menageMetaData, reader, entryObj);
 
 		} catch (MalformedURLException e) {
 			log.error("invalid URL type", e);
@@ -45,7 +47,8 @@ public class RSSDemo {
 	}
 
 	public static void writeFeed(UserInteraction interaction, EntryWriter writer, FeedMetaDataMenager menageMetaData,
-			RSSReader reader) throws IOException, IllegalArgumentException, FeedException, ParseException {
+			RSSReader reader, Entry entryObj)
+					throws IOException, IllegalArgumentException, FeedException, ParseException {
 
 		// get from file sources's URL
 		String URL = menageMetaData.readSourceURL(new MenuPrinter().showMenu());
@@ -57,9 +60,15 @@ public class RSSDemo {
 			// if user choose to show RSS feed into console run FeedWriter
 			Iterator<?> itEntries = reader.readRSSFeed(URL);
 			if (itEntries != null) {
+
 				while (itEntries.hasNext()) {
 					SyndEntry entry = (SyndEntry) itEntries.next();
-					writer.writeFeedEntry(new WriteMethodParameter(entry.getTitle(), entry.getLink(), entry.getPublishedDate(), method, filePath));
+					entryObj.setlink(entry.getLink());
+					entryObj.setTitle(entry.getTitle());
+					entryObj.setDate(entry.getPublishedDate().toString());
+					entryObj.setMethod(method);
+					entryObj.setFilePath(filePath);
+					writer.writeFeedEntry(entryObj);
 					// char nextFeed = interaction.continueCheck();
 					if (!(interaction.continueCheck() == 'y')) {
 						break;
@@ -72,7 +81,8 @@ public class RSSDemo {
 	}
 
 	public static void addNewSource(UserInteraction interaction, FeedMetaDataMenager menageMetaData, RSSReader reader,
-			EntryWriter writer) throws IllegalArgumentException, FeedException, IOException, ParseException {
+			EntryWriter writer, Entry entryObj)
+					throws IllegalArgumentException, FeedException, IOException, ParseException {
 		Iterator<?> itEntries = reader.readRSSFeed(interaction.getLink());
 		String filePath = null;
 		if (itEntries != null) {
@@ -80,7 +90,13 @@ public class RSSDemo {
 			while (itEntries.hasNext()) {
 				SyndEntry entry = (SyndEntry) itEntries.next();
 				if (entry != null) {
-					writer.writeFeedEntry(new WriteMethodParameter(entry.getTitle(), entry.getLink(), entry.getPublishedDate(), interaction.getMethod(), filePath));
+
+					entryObj.setlink(entry.getLink());
+					entryObj.setTitle(entry.getTitle());
+					entryObj.setDate(entry.getPublishedDate().toString());
+					entryObj.setMethod(interaction.getMethod());
+					entryObj.setFilePath(filePath);
+					writer.writeFeedEntry(entryObj);
 
 					// char nextFeed = interaction.continueCheck();
 					if (!(interaction.continueCheck() == 'y')) {

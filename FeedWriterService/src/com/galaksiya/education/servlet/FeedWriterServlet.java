@@ -3,8 +3,6 @@ package com.galaksiya.education.servlet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -43,33 +41,75 @@ public class FeedWriterServlet extends HttpServlet {
 		Gson gson = new Gson();
 		Entry obj = gson.fromJson(sb.toString(), Entry.class);
 
-		String title = obj.title;
-		String link = obj.link;
-		String date = obj.date;
-		SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
-		Date dateParsed = null;
-		String filePath = null;
-		try {
-			dateParsed = format.parse(date);
-		} catch (ParseException e1) {
-			log.warn("date can not parse", e1);
-		}
-
-		String method = obj.method.toString();
+		// String title = obj.title;
+		// String link = obj.link;
+		// String date = obj.date;
+		// SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd HH:mm:ss
+		// zzz yyyy");
+		// Date dateParsed = null;
+		// String filePath = null;
+		// try {
+		// dateParsed = format.parse(date);
+		// } catch (ParseException e1) {
+		// log.warn("date can not parse", e1);
+		// }
+		//
+		// String method = obj.method.toString();
 		EntryWriter write = new EntryWriter();
 
 		try {
-			write.writeFeedEntry(new WriteMethodParameter(title, link, dateParsed, method, filePath));
+			write.writeFeedEntry(obj);
 		} catch (ParseException e) {
 			log.warn("parse -from POST request- is unvalid", e);
 		}
 
 	}
 
-	public class Entry {
+	public static class Entry {
 		String title;
 		String link;
 		String date;
 		String method;
+		String filePath;
+
+		public String getTitle() {
+			return title;
+		}
+
+		public String getLink() {
+			return link;
+		}
+
+		public String getDate() {
+			return date;
+		}
+
+		public String getMethod() {
+			return method;
+		}
+
+		public String getFilePath() {
+			return filePath;
+		}
+
+		public String setTitle(String value) {
+			return title = value;
+		}
+
+		public String setlink(String value) {
+			return link = value;
+		}
+
+		public String setDate(String value) {
+			return date = value;
+		}
+
+		public String setMethod(String value) {
+			return method = value;
+		}
+
+		public String setFilePath(String value) {
+			return filePath = value;
+		}
 	}
 }
