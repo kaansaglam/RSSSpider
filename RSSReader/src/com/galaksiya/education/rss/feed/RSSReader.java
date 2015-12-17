@@ -46,7 +46,7 @@ public class RSSReader {
 				}
 			}
 		} catch (MalformedURLException e) {
-			log.error("not URL format :" + sourceUrl, e);
+			log.error("not URL format  : " + sourceUrl, e);
 		} catch (FeedException e) {
 			log.error("feed is not valid  : ", e);
 			e.printStackTrace();
