@@ -25,10 +25,8 @@ public class ScheduledExecutorDemo {
 	private static final Logger log = Logger.getLogger(ScheduledExecutorDemo.class);
 
 	public static void main(String[] args) throws ParseException, IllegalArgumentException, IOException, FeedException {
-
 		Map<String, Date> feedTimeMap = new HashMap<String, Date>();
-		int sourceCount = new MenuPrinter().getConsoleText() - 1;
-
+		int sourceCount = new MenuPrinter().getSourceCount();
 		ExecutorService executorService = Executors.newFixedThreadPool(sourceCount);
 		Runnable runnable = new Runnable() {
 			public void run() {
@@ -43,11 +41,9 @@ public class ScheduledExecutorDemo {
 				}
 			}
 		};
-
 		// run read cycle every 10 second.
 		ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
 		service.scheduleAtFixedRate(runnable, 0, 10, TimeUnit.SECONDS);
-
 	}
 
 	// show all entries into console. after first run show only fresh entry.
@@ -70,11 +66,9 @@ public class ScheduledExecutorDemo {
 				// this block for first time run the code.
 				if (feedTimeMap.get(name) == null) {
 					SyndEntry entry = (SyndEntry) itEntries.next();
-
 					connect.postRequest(entry.getTitle(), entry.getLink(), entry.getPublishedDate(), method);
 					feedTimeMap.put(name, entry.getPublishedDate());
 					while (itEntries.hasNext()) {
-
 						entry = (SyndEntry) itEntries.next();
 						connect.postRequest(entry.getTitle(), entry.getLink(), entry.getPublishedDate(), method);
 					}
@@ -83,7 +77,6 @@ public class ScheduledExecutorDemo {
 					SyndEntry entry = (SyndEntry) itEntries.next();
 					SyndEntry freshEntry = compareDates.compareDates(entry, feedTimeMap, name);
 					if (freshEntry != null) {
-
 						connect.postRequest(freshEntry.getTitle(), freshEntry.getLink(), freshEntry.getPublishedDate(),
 								method);
 						feedTimeMap.put(name, entry.getPublishedDate());
@@ -98,7 +91,6 @@ public class ScheduledExecutorDemo {
 					}
 				}
 			}
-
 		} catch (ArrayIndexOutOfBoundsException e) {
 			log.error(" array index out of bound  ", e);
 		} catch (IOException e) {
@@ -110,6 +102,5 @@ public class ScheduledExecutorDemo {
 		} catch (Exception e) {
 			log.error("unexpected exception", e);
 		}
-
 	}
 }

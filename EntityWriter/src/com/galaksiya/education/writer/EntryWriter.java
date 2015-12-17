@@ -5,7 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.log4j.Logger;
@@ -27,32 +26,18 @@ public class EntryWriter {
 	private static Logger log = Logger.getLogger(EntryWriter.class);
 
 	public void writeFeedEntry(Entry obj) throws ParseException {
-
-		// format the date value String to DateFormat
-		SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
-		Date dateParsed = null;
 		String filePath = obj.getFilePath();
-		try {
-			dateParsed = format.parse(obj.getDate());
-		} catch (ParseException e1) {
-			log.warn("date can not parse", e1);
-		}
-
-		if (filePath == null)
+		// filePath always null except test class..
+		if (filePath == null) {
 			filePath = FilePathInfo.FILE_PATH;
+		}
 		try (Writer output = new BufferedWriter(new FileWriter(filePath, true));) {
 
-			// System.out.println("Title : " + title);
 			output.append("\nTitle        : " + obj.getTitle());
-
-			// System.out.println("Link : " + link);
 			output.append("\nLink         : " + obj.getLink());
-
-			setLastPublishDate(dateParsed);
-			// System.out.println("Publish Date : " + getLastPublishDate());
+			setLastPublishDate(obj.getDate());
 			output.append("\nPublish Date : " + getLastPublishDate());
-
-			// System.out.println("Content : " + archived.text() + "\n\n\n");
+			// call getContent method and parse rss content.
 			output.append("\nContent      : " + getContent(obj.getLink(), obj.getMethod()) + "\n\n\n");
 
 		} catch (IllegalArgumentException e) {
@@ -65,16 +50,13 @@ public class EntryWriter {
 
 	public String getContent(String link, String method) throws IOException {
 		String content = null;
-
 		// get news page source
 		Document doc = Jsoup.connect(link).get();
 		Elements archived;
 		// parse content from xml page with query line(method)
 		archived = doc.select(method);
 		content = archived.text();
-
 		return content;
-
 	}
 
 	public Date getLastPublishDate() {

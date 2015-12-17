@@ -8,7 +8,6 @@ import java.util.Scanner;
  * ask user to what do you want. return 1 or 2;
  * 
  * @author galaksiya
- *
  */
 public class UserInteraction {
 	private static UserInteraction instance = new UserInteraction();
@@ -24,22 +23,19 @@ public class UserInteraction {
 	}
 
 	/**
-	 * Ask to user for choose a option. get inputs from user
-	 * 
-	 * * @throws IOException
+	 * Ask to user for choose a option. get inputs from user 
+	 * * @throws
+	 * IOException
 	 */
 	public void getUserPreferences() throws IOException {
 		do {
 			try {
-
 				System.out.println("  select a news source  ---> 1\n" + "   Add new source       ---> 2\n");
-
 				addOrRead = scanner.nextInt();
 			} catch (InputMismatchException e) {
 				System.out.println("\nplease enter 1 or 2 ...\n");
 				scanner.nextLine();
 			}
-
 			if (addOrRead == 2) {
 
 				System.out.println("add a name ");
@@ -53,18 +49,14 @@ public class UserInteraction {
 					method = scanner.nextLine();
 				} while (method.equals(""));
 			}
-
 		} while (addOrRead > 2 || addOrRead < 1);
-
 	}
 
 	public char addOrNot() {
-
 		// asking user to add
 		System.out.println("\nPress a for add this news source in the file :\n"
 				+ "\nPress any button for continue without save...");
 		return scanner.next().charAt(0);
-
 	}
 
 	public char addAlreadyExistRecord() {

@@ -20,6 +20,11 @@ import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.io.FeedException;
 import com.galaksiya.education.servlet.FeedWriterServlet.Entry;
 
+/**
+ * ask the user add or read add a new source or read a rss source already exist
+ * 
+ * @author galaksiya
+ */
 public class RSSDemo {
 	private static Logger log = Logger.getLogger(RSSDemo.class);
 
@@ -27,18 +32,20 @@ public class RSSDemo {
 			IllegalArgumentException, FeedException, IOException, ParseException {
 
 		try {
+			// object contain (title, link,date,method, filepath)
 			Entry entryObj = new Entry();
 			FeedMetaDataMenager menageMetaData = new FeedMetaDataMenager();
 			UserInteraction interaction = UserInteraction.getInstance();
+			// ask to user add a URI or read already exist URI..
 			interaction.getUserPreferences();
 			RSSReader reader = new RSSReader();
 			EntryWriter writer = new EntryWriter();
 
 			while (interaction.getAddOrRead() == 2) {
-				// the method is for add a new news source
+				// the method is for add a new news source..
 				addNewSource(interaction, menageMetaData, reader, writer, entryObj);
 			}
-			// the method is for show a source's feed
+			// the method is for read URI feed..
 			writeFeed(interaction, writer, menageMetaData, reader, entryObj);
 
 		} catch (MalformedURLException e) {
@@ -46,6 +53,19 @@ public class RSSDemo {
 		}
 	}
 
+	/**
+	 * 
+	 * 
+	 * @param interaction
+	 * @param writer
+	 * @param menageMetaData
+	 * @param reader
+	 * @param entryObj
+	 * @throws IOException
+	 * @throws IllegalArgumentException
+	 * @throws FeedException
+	 * @throws ParseException
+	 */
 	public static void writeFeed(UserInteraction interaction, EntryWriter writer, FeedMetaDataMenager menageMetaData,
 			RSSReader reader, Entry entryObj)
 					throws IOException, IllegalArgumentException, FeedException, ParseException {
@@ -53,14 +73,13 @@ public class RSSDemo {
 		// get from file sources's URL
 		String URL = menageMetaData.readSourceURL(new MenuPrinter().showMenu());
 
-		// get from file source's query method
+		// get from file , source's content query method
 		String method = menageMetaData.getSourceQuery(URL);
 		try {
 			String filePath = null;
-			// if user choose to show RSS feed into console run FeedWriter
 			Iterator<?> itEntries = reader.readRSSFeed(URL);
 			if (itEntries != null) {
-
+				// set data into a object
 				while (itEntries.hasNext()) {
 					SyndEntry entry = (SyndEntry) itEntries.next();
 					entryObj.setlink(entry.getLink());
@@ -68,8 +87,9 @@ public class RSSDemo {
 					entryObj.setDate(entry.getPublishedDate().toString());
 					entryObj.setMethod(method);
 					entryObj.setFilePath(filePath);
+					// writer method to write data into file
 					writer.writeFeedEntry(entryObj);
-					// char nextFeed = interaction.continueCheck();
+					// ask to user next entry or finish..
 					if (!(interaction.continueCheck() == 'y')) {
 						break;
 					}
@@ -80,32 +100,45 @@ public class RSSDemo {
 		}
 	}
 
+	/**
+	 * add a new rss source in a file..
+	 * 
+	 * @param interaction
+	 * @param menageMetaData
+	 * @param reader
+	 * @param writer
+	 * @param entryObj
+	 * @throws IllegalArgumentException
+	 * @throws FeedException
+	 * @throws IOException
+	 * @throws ParseException
+	 */
 	public static void addNewSource(UserInteraction interaction, FeedMetaDataMenager menageMetaData, RSSReader reader,
 			EntryWriter writer, Entry entryObj)
 					throws IllegalArgumentException, FeedException, IOException, ParseException {
 		Iterator<?> itEntries = reader.readRSSFeed(interaction.getLink());
-		String filePath = null;
+
 		if (itEntries != null) {
 			// if user choosed to add a news source.
 			while (itEntries.hasNext()) {
 				SyndEntry entry = (SyndEntry) itEntries.next();
 				if (entry != null) {
-
+					// set data into a object
 					entryObj.setlink(entry.getLink());
 					entryObj.setTitle(entry.getTitle());
 					entryObj.setDate(entry.getPublishedDate().toString());
 					entryObj.setMethod(interaction.getMethod());
+					String filePath = null;
 					entryObj.setFilePath(filePath);
+					// writer method to write data into file
 					writer.writeFeedEntry(entryObj);
-
-					// char nextFeed = interaction.continueCheck();
+					// ask to user add or not..
 					if (!(interaction.continueCheck() == 'y')) {
 						break;
 					}
 				}
 			}
 		}
-
 		char addControl = interaction.addOrNot();
 		// user decided to add soruce in file.
 		if (addControl == 'a') {
@@ -120,7 +153,6 @@ public class RSSDemo {
 			} else {
 				menageMetaData.addSource(name, link, method);
 			}
-
 		}
 		interaction.getUserPreferences();
 	}

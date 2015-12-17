@@ -16,9 +16,7 @@ import com.sun.syndication.io.FeedException;
  * and add new source.
  * 
  * @author galaksiya
- *
  */
-
 public class FeedMetaDataMenager {
 	private static final Logger log = Logger.getLogger(FeedMetaDataMenager.class);
 	public BufferedReader br;
@@ -63,7 +61,6 @@ public class FeedMetaDataMenager {
 		String cvsSplitBy = ",";
 		String sourceUrl = null;
 		int counter = 0;
-
 		try (BufferedReader br = menageMetaData();) {
 			while ((line = br.readLine()) != null) {
 				// use comma as separator
@@ -88,7 +85,6 @@ public class FeedMetaDataMenager {
 	 * @throws IOException
 	 */
 	public String getSourceQuery(String sourceUrl) throws IOException {
-
 		String line = "";
 		String cvsSplitBy = ",";
 
@@ -108,7 +104,6 @@ public class FeedMetaDataMenager {
 		} catch (IOException e) {
 			log.error("General I/O exception: ", e);
 		}
-
 		return method;
 	}
 

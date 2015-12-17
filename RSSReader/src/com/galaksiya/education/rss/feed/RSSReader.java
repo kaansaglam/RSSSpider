@@ -12,9 +12,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Iterator;
 import java.util.List;
-
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-
 import com.sun.syndication.feed.synd.SyndFeed;
 import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.ParsingFeedException;
@@ -33,16 +32,14 @@ public class RSSReader {
 
 	public Iterator<?> readRSSFeed(String sourceUrl)
 			throws IllegalArgumentException, MalformedURLException, IOException, ParsingFeedException {
+		BasicConfigurator.configure();
 		Iterator<?> itEntries = null;
 		try {
 			if (sourceUrl != null) {
 				// connect the url adress and read data.
 				String doc = readURI(sourceUrl);
-
 				if (doc != null) {
-
 					itEntries = parseFeed(doc);
-
 				}
 			}
 		} catch (MalformedURLException e) {
