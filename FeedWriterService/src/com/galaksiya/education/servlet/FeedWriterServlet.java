@@ -18,7 +18,8 @@ import com.google.gson.Gson;
 
 public class FeedWriterServlet extends HttpServlet {
 	/**
-	 * get json data from Post request. send the json content(title,link,date..) to writer class
+	 * get json data from Post request. send the json content(title,link,date..)
+	 * to writer class
 	 */
 	private static final long serialVersionUID = 1L;
 	private static final Logger log = Logger.getLogger(FeedWriterServlet.class);
@@ -38,9 +39,6 @@ public class FeedWriterServlet extends HttpServlet {
 		} finally {
 			reader.close();
 		}
-
-		// JsonParser parser = new JsonParser();
-		// JsonObject obj = parser.parse(sb.toString()).getAsJsonObject();
 
 		Gson gson = new Gson();
 		Entry obj = gson.fromJson(sb.toString(), Entry.class);

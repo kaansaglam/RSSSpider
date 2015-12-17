@@ -22,7 +22,7 @@ import com.sun.syndication.io.SyndFeedInput;
 import com.sun.syndication.io.XmlReader;
 
 /**
- * this class read xml file from website.
+ * this class read xml file from rss server.
  * 
  * @author galaksiya
  *
