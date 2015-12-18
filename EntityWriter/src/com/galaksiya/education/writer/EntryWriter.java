@@ -1,17 +1,14 @@
 package com.galaksiya.education.writer;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
-import java.text.ParseException;
 
 import org.apache.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
-import com.galaksiya.education.writer.FilePathInfo;
-import com.galaksiya.education.servlet.FeedWriterServlet.Entry;
 
 public class EntryWriter {
 	/**
@@ -21,16 +18,19 @@ public class EntryWriter {
 	 * @author galaksiya
 	 *
 	 */
-	private static Logger log = Logger.getLogger(EntryWriter.class);
+	private static final Logger log = Logger.getLogger(EntryWriter.class);
 
-	public void writeFeedEntry(Entry obj) throws ParseException {
+	public void writeFeedEntry(EntryWriteRequest obj) throws IOException {
 		String filePath = obj.getFilePath();
 		// filePath always null except test class..
 		if (filePath == null) {
 			filePath = FilePathInfo.FILE_PATH;
 		}
-		try (Writer output = new BufferedWriter(new FileWriter(filePath, true));) {
-
+		File file = new File(filePath);
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+		try (Writer output = new BufferedWriter(new FileWriter(file, true));) {
 			output.append("\nTitle        : " + obj.getTitle());
 			output.append("\nLink         : " + obj.getLink());
 			output.append("\nPublish Date : " + obj.getDate());
@@ -46,13 +46,9 @@ public class EntryWriter {
 	}
 
 	public String getContent(String link, String method) throws IOException {
-		String content = null;
 		// get news page source
 		Document doc = Jsoup.connect(link).get();
-		Elements archived;
 		// parse content from xml page with query line(method)
-		archived = doc.select(method);
-		content = archived.text();
-		return content;
+		return doc.select(method).text();
 	}
 }

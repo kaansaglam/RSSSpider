@@ -17,12 +17,12 @@ import com.sun.syndication.io.FeedException;
  * 
  * @author galaksiya
  */
-public class FeedMetaDataMenager {
-	private static final Logger log = Logger.getLogger(FeedMetaDataMenager.class);
+public class FeedMetaDataManager {
+	private static final Logger log = Logger.getLogger(FeedMetaDataManager.class);
 	public BufferedReader br;
 
 	public BufferedReader menageMetaData() throws IOException {
-		br = new BufferedReader(new FileReader(Info.RSS_FILE));
+		br = new BufferedReader(new FileReader(getClass().getResource("WriterTestFile.txt").getPath()));
 		return br;
 	}
 

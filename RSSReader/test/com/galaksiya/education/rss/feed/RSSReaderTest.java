@@ -1,6 +1,6 @@
 package com.galaksiya.education.rss.feed;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -9,7 +9,8 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.junit.Test;
-import com.galaksiya.education.rss.metadata.FeedMetaDataMenager;
+
+import com.galaksiya.education.rss.metadata.FeedMetaDataManager;
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.feed.synd.SyndFeed;
 import com.sun.syndication.io.FeedException;
@@ -22,7 +23,7 @@ public class RSSReaderTest {
 	public void readRSS() throws IllegalArgumentException, FeedException, IOException {
 
 		Iterator<?> itEntries = null;
-		String testUrl = new FeedMetaDataMenager().readSourceURL(1);
+		String testUrl = new FeedMetaDataManager().readSourceURL(1);
 		URL url = new URL(testUrl);
 		HttpURLConnection httpcon = (HttpURLConnection) url.openConnection();
 		SyndFeedInput input = new SyndFeedInput();

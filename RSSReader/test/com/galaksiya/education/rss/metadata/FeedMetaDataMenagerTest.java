@@ -4,6 +4,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -13,7 +14,7 @@ import org.junit.Test;
 import com.sun.syndication.io.FeedException;
 
 public class FeedMetaDataMenagerTest {
-	FeedMetaDataMenager menageMetaData = new FeedMetaDataMenager();
+	FeedMetaDataManager menageMetaData = new FeedMetaDataManager();
 
 	@Test
 	public void getURL() throws IOException {
@@ -76,7 +77,7 @@ public class FeedMetaDataMenagerTest {
 
 		String[] expectedData = { name, link, method };
 
-		new FeedMetaDataMenager().addSource(name, link, method);
+		new FeedMetaDataManager().addSource(name, link, method);
 
 		assertArrayEquals(expectedData, getFileData(link));
 	}
@@ -96,7 +97,6 @@ public class FeedMetaDataMenagerTest {
 	}
 
 	public String[] getFileData(String sourceUrl) throws IOException {
-
 		String line = "";
 		String cvsSplitBy = ",";
 		BufferedReader br = new BufferedReader(new FileReader("/home/galaksiya/Desktop/RSSfile.csv"));

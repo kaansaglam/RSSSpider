@@ -19,8 +19,8 @@ import com.galaksiya.education.rss.common.Info;
  * @author galaksiya
  *
  */
-public class ServletConnection {
-	private static final Logger log = Logger.getLogger(ServletConnection.class);
+public class ServletConnectionClient {
+	private static final Logger log = Logger.getLogger(ServletConnectionClient.class);
 
 	public void postRequest(String title, String link, Date date, String method) {
 		BasicConfigurator.configure();

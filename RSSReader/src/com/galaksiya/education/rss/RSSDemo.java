@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.text.ParseException;
 import java.util.Iterator;
-import com.galaksiya.education.writer.*;
 
 import javax.xml.parsers.ParserConfigurationException;
 
@@ -15,10 +14,11 @@ import org.xml.sax.SAXException;
 import com.galaksiya.education.rss.feed.RSSReader;
 import com.galaksiya.education.rss.interaction.MenuPrinter;
 import com.galaksiya.education.rss.interaction.UserInteraction;
-import com.galaksiya.education.rss.metadata.FeedMetaDataMenager;
+import com.galaksiya.education.rss.metadata.FeedMetaDataManager;
+import com.galaksiya.education.writer.EntryWriteRequest;
+import com.galaksiya.education.writer.EntryWriter;
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.io.FeedException;
-import com.galaksiya.education.servlet.FeedWriterServlet.Entry;
 
 /**
  * ask the user add or read add a new source or read a rss source already exist
@@ -33,8 +33,8 @@ public class RSSDemo {
 
 		try {
 			// object contain (title, link,date,method, filepath)
-			Entry entryObj = new Entry();
-			FeedMetaDataMenager menageMetaData = new FeedMetaDataMenager();
+			EntryWriteRequest entryObj = new EntryWriteRequest();
+			FeedMetaDataManager menageMetaData = new FeedMetaDataManager();
 			UserInteraction interaction = UserInteraction.getInstance();
 			RSSReader reader = new RSSReader();
 			EntryWriter writer = new EntryWriter();
@@ -67,8 +67,8 @@ public class RSSDemo {
 	 * @throws FeedException
 	 * @throws ParseException
 	 */
-	public static void writeFeed(UserInteraction interaction, EntryWriter writer, FeedMetaDataMenager menageMetaData,
-			RSSReader reader, Entry entryObj)
+	public static void writeFeed(UserInteraction interaction, EntryWriter writer, FeedMetaDataManager menageMetaData,
+			RSSReader reader, EntryWriteRequest entryObj)
 					throws IOException, IllegalArgumentException, FeedException, ParseException {
 
 		// get from file sources's URL
@@ -114,8 +114,8 @@ public class RSSDemo {
 	 * @throws IOException
 	 * @throws ParseException
 	 */
-	public static void addNewSource(UserInteraction interaction, FeedMetaDataMenager menageMetaData, RSSReader reader,
-			EntryWriter writer, Entry entryObj)
+	public static void addNewSource(UserInteraction interaction, FeedMetaDataManager menageMetaData, RSSReader reader,
+			EntryWriter writer, EntryWriteRequest entryObj)
 					throws IllegalArgumentException, FeedException, IOException, ParseException {
 		Iterator<?> itEntries = reader.readRSSFeed(interaction.getLink());
 

@@ -2,9 +2,6 @@ package com.galaksiya.education.servlet;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -22,6 +19,7 @@ public class FeedWriterServlet extends HttpServlet {
 	 * send it to writer class
 	 */
 	private static final long serialVersionUID = 1L;
+
 	private static final Logger log = Logger.getLogger(FeedWriterServlet.class);
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -39,69 +37,8 @@ public class FeedWriterServlet extends HttpServlet {
 		}
 		Gson gson = new Gson();
 		// set json content as a object
-		Entry obj = gson.fromJson(sb.toString(), Entry.class);
-		try {
-			// call writer method.
-			new EntryWriter().writeFeedEntry(obj);
-		} catch (ParseException e) {
-			log.warn("parse -from POST request- is unvalid", e);
-		}
-
-	}
-
-	public static class Entry {
-		String title;
-		String link;
-		String date;
-		String method;
-		String filePath;
-
-		public String getTitle() {
-			return title;
-		}
-
-		public String getLink() {
-			return link;
-		}
-
-		public Date getDate() {
-			// format the date value String to Date format
-			SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
-			Date dateParsed = null;
-			try {
-				dateParsed = format.parse(date);
-			} catch (ParseException e1) {
-				log.warn("could not parse date", e1);
-			}
-			return dateParsed;
-		}
-
-		public String getMethod() {
-			return method;
-		}
-
-		public String getFilePath() {
-			return filePath;
-		}
-
-		public String setTitle(String value) {
-			return title = value;
-		}
-
-		public String setlink(String value) {
-			return link = value;
-		}
-
-		public String setDate(String value) {
-			return date = value;
-		}
-
-		public String setMethod(String value) {
-			return method = value;
-		}
-
-		public String setFilePath(String value) {
-			return filePath = value;
-		}
+		EntryWriteRequest obj = gson.fromJson(sb.toString(), EntryWriteRequest.class);
+		// call writer method.
+		new EntryWriter().writeFeedEntry(obj);
 	}
 }

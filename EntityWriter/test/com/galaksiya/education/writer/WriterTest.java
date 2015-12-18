@@ -1,27 +1,26 @@
 package com.galaksiya.education.writer;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.text.ParseException;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import com.galaksiya.education.servlet.FeedWriterServlet;
-import com.galaksiya.education.servlet.FeedWriterServlet.Entry;
 
 public class WriterTest {
-	private static final Logger log = Logger.getLogger(FeedWriterServlet.class);
+	
+	private static final Logger log = Logger.getLogger(WriterTest.class);
 
-	private String filePath = "/home/galaksiya/Desktop/WriterTest-1.txt";
-	Entry entryObj = new Entry();
+	private String filePath = getClass().getResource("WriterTestFile.txt").getPath();
+	
+	private EntryWriteRequest entryObj = new EntryWriteRequest();
 
 	@Before
 	public void before() throws Exception {
@@ -44,7 +43,7 @@ public class WriterTest {
 	}
 
 	@Test
-	public void writeIntoEmptyFile() throws ParseException, IOException {
+	public void writeIntoEmptyFile() throws Exception {
 		EntryWriter writer = new EntryWriter();
 
 		// call writer method
@@ -66,7 +65,7 @@ public class WriterTest {
 	}
 
 	@Test
-	public void writeIntoOldFile() throws ParseException, FileNotFoundException {
+	public void writeIntoOldFile() throws Exception {
 
 		EntryWriter writer = new EntryWriter();
 

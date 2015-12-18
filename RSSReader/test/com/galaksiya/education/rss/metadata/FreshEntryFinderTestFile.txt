@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TEKNOLOG</title>
+	<atom:link href="http://www.teknolog.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.teknolog.com</link>
+	<description>Yüzde 100 Teknoloji - Sadece En Yeni ve En İyi Ürünler!</description>
+	<lastBuildDate>Thu, 03 Dec 2015 05:45:32 +0000</lastBuildDate>
+	<language>tr-TR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3.1</generator>
+	<item>
+		<title>Günün Fırsatları (3 Aralık 2015)</title>
+		<link>http://www.teknolog.com/gunun-firsatlari-3-aralik-2015/</link>
+		<comments>http://www.teknolog.com/gunun-firsatlari-3-aralik-2015/#comments</comments>
+		<pubDate>Thu, 03 Dec 2015 05:45:32 +0000</pubDate>
+		<dc:creator><![CDATA[Mert Yamak]]></dc:creator>
+				<category><![CDATA[Günün Fırsatları]]></category>
+		<category><![CDATA[3 aralık 2015]]></category>
+		<category><![CDATA[günün fırsatları]]></category>
+		<category><![CDATA[lg g4 akıllı telefon]]></category>
+		<category><![CDATA[samsung telefon]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712730</guid>
+		<description><![CDATA[<p>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik. LENOVO YOGA 500/i3-5005U/4GB/500GB+8GB/14 /WIN10 80N400W7TX NOTEBOOK 1899,00 TL 1599,00 TL FIRSATI KAP! &#160; SAMSUNG GALAXY J5 BEYAZ AKILLI TELEFON 949,00 TL 849,00 TL FIRSATI KAP! &#160; &#160; &#160; Sony Xperia C5 Ultra 1399,00 TL 1248,99 TL FIRSATI KAP! &#160; &#160; &#160; Amazon Kindle Paperwhite 6&#8243; Elektronik Kitap [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-3-aralik-2015/">Günün Fırsatları (3 Aralık 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2><strong>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik.<br />
+</strong></h2>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/125033063-1-lenovo_yoga_500i3_5005u4gb500gb8gb14_win10_80n400w.jpg"><img class="alignleft wp-image-1214712731 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/125033063-1-lenovo_yoga_500i3_5005u4gb500gb8gb14_win10_80n400w-300x229.jpg" alt="" width="300" height="229" /></a></h3>
+<h3 class="product-name">LENOVO YOGA 500/i3-5005U/4GB/500GB+8GB/14 /WIN10 80N400W7TX NOTEBOOK<br />
+<del><span style="color: #800000;">1899,00 TL</span></del><br />
+<span style="color: #ff0000;">1599,00 TL</span></h3>
+<h2><strong><a href="http://www.teknosa.com/urunler/125033063/lenovo-yoga-500i3-5005u4gb500gb8gb14-win10-80n400w7tx-notebook">FIRSATI KAP!</a><a href="http://www.teknosa.com/urunler/125071563/teknosa-preo-p1-akilli-telefon"><br />
+</a></strong></h2>
+<p>&nbsp;</p>
+<h3></h3>
+<h2 style="text-align: left;"><a href="http://www.teknolog.com/wp-content/uploads/2015/12/125071571-1-samsung_galaxy_j5_beyaz_akilli_telefon.jpg"><img class="alignleft wp-image-1214712732 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/125071571-1-samsung_galaxy_j5_beyaz_akilli_telefon-300x229.jpg" alt="" width="300" height="229" /></a></h2>
+<h3 class="product-name">SAMSUNG GALAXY J5 BEYAZ AKILLI TELEFON<br />
+<del><span style="color: #800000;">949,00 TL</span></del><br />
+<span style="color: #ff0000;">849,00 TL</span></h3>
+<h2><strong><a href="http://www.teknosa.com/urunler/125071571/samsung-galaxy-j5-beyaz-akilli-telefon">FIRSATI KAP!</a></strong></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Telefon_7945716.jpg"><img class="alignleft wp-image-1214712733 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/Telefon_7945716-300x300.jpg" alt="" width="300" height="300" /></a></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'"></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'">Sony Xperia C5 Ultra<br />
+<span style="color: #800000;"><del>1399,00 TL</del></span><br />
+<span style="color: #ff0000;">1248,99 TL</span></h3>
+<h2><a href="http://www.hepsiburada.com/sony-xperia-c5-ultra-p-TELCEPSONXPRC5U-B"><strong>FIRSATI KAP!</strong></a></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="http://www.teknolog.com/wp-content/uploads/2015/12/401086123107t4.jpg"><img class="alignleft wp-image-1214712734 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/401086123107t4-300x262.jpg" alt="" width="300" height="262" /></a><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Bilgisayar_4971841.jpg"><br />
+</a></p>
+<h3>Amazon Kindle Paperwhite 6&#8243; Elektronik Kitap Okuyucu 4GB (Wi-Fi, Dahili Işık) (2015) (300 ppi)<br />
+<span style="color: #800000;"><del>560,90 TL</del></span><br />
+<span style="color: #ff0000;">439,90 TL</span></h3>
+<h2><strong><a href="http://www.hizlial.com/amazon-kindle-paperwhite-6-elektronik-kitap-okuyucu-4gb-wi-fi-dahili-isik-2015-300-ppi/10861231">FIRSATI KAP!</a></strong></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3></h3>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/5016238.jpeg"><img class="alignleft wp-image-1214712735 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/5016238-300x231.jpeg" alt="" width="300" height="231" /></a></h3>
+<h3 title="LG G4 H815 Kahverengi Deri Akıllı Telefon">LG G4 H815 Kahverengi Deri Akıllı Telefon<br />
+<span style="color: #800000;"><del>2199,00 TL</del></span><br />
+<span style="color: #ff0000;"> 1749,00 TL</span></h3>
+<h2><strong><a href="http://www.kliksa.com/urun/lg-g4-h815-kahverengi-deri-akilli-telefon/902478686?OM.zn=CategoryTopSellers-w21&amp;OM.zpc=902478686">FIRSATI KAP!</a></strong></h2>
+<p>&nbsp;</p>
+<h2></h2>
+<h2></h2>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-3-aralik-2015/">Günün Fırsatları (3 Aralık 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/gunun-firsatlari-3-aralik-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>BlackBerry Priv&#8217;in 32 GB&#8217;lık modeli Türkiye&#8217;de 3499 TL</title>
+		<link>http://www.teknolog.com/blackberry-privin-32-gblik-modeli-turkiyede-3499-tl/</link>
+		<comments>http://www.teknolog.com/blackberry-privin-32-gblik-modeli-turkiyede-3499-tl/#comments</comments>
+		<pubDate>Wed, 02 Dec 2015 13:06:32 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Haber]]></category>
+		<category><![CDATA[Manşet]]></category>
+		<category><![CDATA[akıllı telefon]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Blackberry]]></category>
+		<category><![CDATA[Priv]]></category>
+		<category><![CDATA[priv fiyatı]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712726</guid>
+		<description><![CDATA[<p>Dokunmatik ekran ve fiziksel klavyeyi aynı cihazda toplayan BlackBerry Priv, ülkemizde 3499 TL&#8217;den satışa çıkartıldı. BlackBerry&#8217;nin Android işletim sistemine sahip ve dokunmatik ekrana ek olarak fiziksel klavyenin sunulduğu modeli Priv, geçtiğimiz dönemlerde tanıtılmış ve akabinde de satışa çıkartılmıştı. Elbette Türkiye&#8217;deki kullanıcıların en çok merak ettiği konu ürünün ülkemizdeki fiyatlandırması oluyordu. Priv de sonunda Türkiye pazarına [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/blackberry-privin-32-gblik-modeli-turkiyede-3499-tl/">BlackBerry Priv&#8217;in 32 GB&#8217;lık modeli Türkiye&#8217;de 3499 TL</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>Dokunmatik ekran ve fiziksel klavyeyi aynı cihazda toplayan BlackBerry Priv, ülkemizde 3499 TL&#8217;den satışa çıkartıldı.</strong></p>
+<p>BlackBerry&#8217;nin Android işletim sistemine sahip ve dokunmatik ekrana ek olarak fiziksel klavyenin sunulduğu modeli Priv, geçtiğimiz dönemlerde tanıtılmış ve akabinde de satışa çıkartılmıştı. Elbette Türkiye&#8217;deki kullanıcıların en çok merak ettiği konu ürünün ülkemizdeki fiyatlandırması oluyordu. Priv de sonunda Türkiye pazarına giriş yaptı ve fiyatı ise 3499 TL.</p>
+<p>Evet; artık orta ve üst seviye şeklinde konumlandırabileceğimiz birçok akıllı telefon 2000 TL ve üzerindeki fiyatlandırmadan satışa çıkartılıyor. Fakat, BlackBerry&#8217;nin burada pazar payını artırabilmek adına fiyatı makul (alınabilir) seviyede tutması gerekirken, 32 GB&#8217;lık model için belirlenen 3499 TL&#8217;lik fiyat etiketiyle Türkiye&#8217;deki satışlarda yaprak kımıldamayacağını şimdiden tahmin etmek hiç de zor değil.</p>
+<p>Bu fiyatlandırmaya çıktığında karşısındaki rakibi fiyat konusunda Apple&#8217;ın iPhone 6s (16 GB) modeli oluyor. Takdir sizin&#8230;</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/blackberry-privin-32-gblik-modeli-turkiyede-3499-tl/">BlackBerry Priv&#8217;in 32 GB&#8217;lık modeli Türkiye&#8217;de 3499 TL</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/blackberry-privin-32-gblik-modeli-turkiyede-3499-tl/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Akıllı telefonlara bildirim gönderebilen akıllı cüzdan hazırlandı</title>
+		<link>http://www.teknolog.com/akilli-telefonlara-bildirim-gonderebilen-akilli-cuzdan-hazirlandi/</link>
+		<comments>http://www.teknolog.com/akilli-telefonlara-bildirim-gonderebilen-akilli-cuzdan-hazirlandi/#comments</comments>
+		<pubDate>Wed, 02 Dec 2015 08:48:42 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Haber]]></category>
+		<category><![CDATA[Manşet]]></category>
+		<category><![CDATA[akıllı bileklik]]></category>
+		<category><![CDATA[akıllı cüzdan]]></category>
+		<category><![CDATA[akıllı telefon]]></category>
+		<category><![CDATA[bildirim]]></category>
+		<category><![CDATA[giyilebilir teknoloji]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712722</guid>
+		<description><![CDATA[<p>Akıllı saat, akıllı bileklik ve akıllı bere derken artık cüzdanlarımız da akıllandı. Geçtiğimiz günlerde; içerisine yerleştirilen mikrofon ve hoparlör mekanizması sayesinde müzik dinlemeyi ve telefon görüşmeleri yapmayı sağlayan akıllı bere hazırlandığını belirtmiştik. Akıllı teknolojiler hayatımızın birçok farklı alanında bize eşlik etmeye devam ederken, son olarak cüzdanlar da artık akıllandı diyebiliriz. Walli olarak isimlendirilen akıllı cüzdan, daha [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/akilli-telefonlara-bildirim-gonderebilen-akilli-cuzdan-hazirlandi/">Akıllı telefonlara bildirim gönderebilen akıllı cüzdan hazırlandı</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>Akıllı saat, akıllı bileklik ve akıllı bere derken artık cüzdanlarımız da akıllandı.</strong></p>
+<p>Geçtiğimiz günlerde; içerisine yerleştirilen mikrofon ve hoparlör mekanizması sayesinde müzik dinlemeyi ve telefon görüşmeleri yapmayı sağlayan akıllı bere hazırlandığını <a href="http://www.teknolog.com/telefon-gorusmeleri-yapmayi-saglayan-akilli-bere-hazirlandi/">belirtmiştik.</a> Akıllı teknolojiler hayatımızın birçok farklı alanında bize eşlik etmeye devam ederken, son olarak cüzdanlar da artık akıllandı diyebiliriz. Walli olarak isimlendirilen akıllı cüzdan, daha çok cüzdanını sürekli bir yerlerde unutan ya da kaybedenlere hitap ediyor diyebiliriz.</p>
+<p><a href="http://www.teknolog.com/wp-content/uploads/2015/12/akilli-cüzdan2.jpg"><img class="alignnone wp-image-1214712723 size-large" src="http://www.teknolog.com/wp-content/uploads/2015/12/akilli-cüzdan2-635x357.jpg" alt="akilli-cüzdan2" width="635" height="357" /></a></p>
+<p>Akıllı telefonlarla Bluetooth üzerinden kablosuz bir şekilde bağlantı kuran akıllı cüzdan, bildirimleri doğrudan telefon ekranından görüntülenmesine imkan tanıyor. Ek olarak SecurePockets olarak adlandırılan teknolojiyle birlikte, cüzdanda kartların bulunduğu bölge özel olarak korumada tutuluyor ve kimlik ya da kredi kartı gibi kartlar eksik olduğunda kullanıcının telefonuna bildirim gönderiliyor. Ayrıca cüzdanınız yanınızdayken, telefonunuzu unuttuğunuzda Walli üzerinden telefonunuza bildirim göndermek de mümkün oluyor.</p>
+<p><iframe src="https://player.vimeo.com/video/146088462" width="500" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><a href="https://vimeo.com/146088462">Introducting Walli &#8211; The Smart Wallet</a> from <a href="https://vimeo.com/user45955972">Walli Wearables</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>Ve elbette gelelim işin duygusal kısmına&#8230; Walli akıllı cüzdan projesi 27 gün içerisinde 69 bin dolardan daha fazla destek topladı. Proje, başarılı olduğunda gelecek yılın Şubat ayında satışına başlanacak. Ürünün fiyatı hakkında herhangi bir bilgi ise yok.</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/akilli-telefonlara-bildirim-gonderebilen-akilli-cuzdan-hazirlandi/">Akıllı telefonlara bildirim gönderebilen akıllı cüzdan hazırlandı</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/akilli-telefonlara-bildirim-gonderebilen-akilli-cuzdan-hazirlandi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Günün Fırsatları (2 Aralık 2015)</title>
+		<link>http://www.teknolog.com/gunun-firsatlari-2-aralik-2015/</link>
+		<comments>http://www.teknolog.com/gunun-firsatlari-2-aralik-2015/#comments</comments>
+		<pubDate>Wed, 02 Dec 2015 05:50:23 +0000</pubDate>
+		<dc:creator><![CDATA[Mert Yamak]]></dc:creator>
+				<category><![CDATA[Günün Fırsatları]]></category>
+		<category><![CDATA[1 aralık 2015]]></category>
+		<category><![CDATA[apple iphone 6]]></category>
+		<category><![CDATA[asus 2si 1 arada laptop]]></category>
+		<category><![CDATA[günün fırsatları]]></category>
+		<category><![CDATA[samsung telefon]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712715</guid>
+		<description><![CDATA[<p>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik. Apple Macbook Pro MD101TU/A Intel Core i5 Notebook 3499,00 TL 3099,00 TL FIRSATI KAP! &#160; Apple iPhone 6 16 GB Space Gray Akıllı Telefon 2699,00 TL 2499,00 TL FIRSATI KAP! &#160; &#160; LG 42LF580N 42&#8243;106 Ekran Full HD Smart LED Ekran 1599,01 TL 1349,01 TL FIRSATI KAP! [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-2-aralik-2015/">Günün Fırsatları (2 Aralık 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2><strong>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik.<br />
+</strong></h2>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/3685226.jpg"><img class="alignleft wp-image-1214712716 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/3685226-300x231.jpg" alt="" width="300" height="231" /></a></h3>
+<h3 class="product-name">Apple Macbook Pro MD101TU/A Intel Core i5 Notebook<br />
+<del><span style="color: #800000;">3499,00 TL</span></del><br />
+<span style="color: #ff0000;">3099,00 TL</span></h3>
+<h2><strong><a href="http://www.kliksa.com/urun/apple-macbook-pro-md101tua-intel-core-i5-notebook/900370074">FIRSATI KAP!</a><a href="http://www.teknosa.com/urunler/125071563/teknosa-preo-p1-akilli-telefon"><br />
+</a></strong></h2>
+<p>&nbsp;</p>
+<h3></h3>
+<h2 style="text-align: left;"><a href="http://www.teknolog.com/wp-content/uploads/2015/12/4594107.jpg"><img class="alignleft wp-image-1214712717 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/4594107-300x231.jpg" alt="" width="300" height="231" /></a></h2>
+<h3 style="text-align: left;">Apple iPhone 6 16 GB Space Gray Akıllı Telefon<br />
+<del><span style="color: #800000;">2699,00 TL</span></del><br />
+<span style="color: #ff0000;">2499,00 TL</span></h3>
+<h2><strong><a href="http://www.kliksa.com/urun/apple-iphone-6-16-gb-space-gray-akilli-telefon/902214196">FIRSATI KAP!</a><a href="http://www.kliksa.com/urun/apple-iphone-6-16-gb-space-gray-akilli-telefon/902214196"></a></strong></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.52.31.png"><img class="size-medium wp-image-1214712708 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.52.31-300x295.png" alt="Ekran Resmi 2015-12-01 12.52.31" width="300" height="295" /></a></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'"></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'">LG 42LF580N 42&#8243;106 Ekran Full HD Smart LED Ekran<br />
+<span style="color: #800000;"><del>1599,01 TL</del></span><br />
+<span style="color: #ff0000;">1349,01 TL</span></h3>
+<h2><a href="http://www.hepsiburada.com/lg-42lf580n-42-106-ekran-full-hd-smart-led-ekran-p-EVLG42LF580N"><strong>FIRSATI KAP!</strong></a></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Bilgisayar_4971841.jpg"><img class="alignleft wp-image-1214712719 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/Bilgisayar_4971841-300x300.jpg" alt="" width="300" height="300" /></a><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Bilgisayar_4971841.jpg"><br />
+</a></p>
+<h3></h3>
+<h3>Asus TP500LB-DN055H Intel Core i5 5200U 2.2GHz / 2.7GHz 6GB 1TB + 24GB SSD 15.6&#8243; Full HD Dokunmatik Taşınabilir Bilgisayar<br />
+<span style="color: #800000;"><del>2998,99 TL</del></span><br />
+<span style="color: #ff0000;">2498,99 TL</span></h3>
+<h2><strong><a href="http://www.hepsiburada.com/asus-tp500lb-dn055h-intel-core-i5-5200u-2-2ghz-2-7ghz-6gb-1tb-24gb-ssd-15-6-full-hd-dokunmatik-tasinabilir-bilgisayar-p-BD601483">FIRSATI KAP!</a></strong></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3></h3>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/125071585-1-samsung_galaxy_j7_beyaz_akilli_telefon.jpg"><img class="alignleft wp-image-1214712720 size-medium" src="http://www.teknolog.com/wp-content/uploads/2015/12/125071585-1-samsung_galaxy_j7_beyaz_akilli_telefon-300x229.jpg" alt="" width="300" height="229" /></a>SAMSUNG GALAXY J7 BEYAZ AKILLI TELEFON</h3>
+<h3><span style="color: #800000;"><del>1449,00 TL</del></span><br />
+<span style="color: #ff0000;"> 1049,00 TL</span></h3>
+<h2><strong><a href="http://www.teknosa.com/urunler/125071585/samsung-galaxy-j7-beyaz-akilli-telefon">FIRSATI KAP!</a></strong></h2>
+<p>&nbsp;</p>
+<h2></h2>
+<h2><strong><a href="http://www.hepsiburada.com/asus-tp500lb-dn055h-intel-core-i5-5200u-2-2ghz-2-7ghz-6gb-1tb-24gb-ssd-15-6-full-hd-dokunmatik-tasinabilir-bilgisayar-p-BD601483"></a></strong></h2>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-2-aralik-2015/">Günün Fırsatları (2 Aralık 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/gunun-firsatlari-2-aralik-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Samsung&#8217;un mobil biriminin başındaki isim değişti</title>
+		<link>http://www.teknolog.com/samsung-mobil-biriminin-basindaki-isim-degisti/</link>
+		<comments>http://www.teknolog.com/samsung-mobil-biriminin-basindaki-isim-degisti/#comments</comments>
+		<pubDate>Tue, 01 Dec 2015 11:44:34 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Haber]]></category>
+		<category><![CDATA[Manşet]]></category>
+		<category><![CDATA[mobil]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[samsung ceo]]></category>
+		<category><![CDATA[samsung mobil]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712703</guid>
+		<description><![CDATA[<p>Samsung&#8217;un mobil biriminin başında yaklaşık üç yıldır görev yapan isim değiştirildi. Birbiri ardına yeni modellerini hazırlayarak akıllı telefon piyasasında ve özellikle de Android cephesinde pazar payını artırma üzerine yoğunlaşan Samsung&#8217;un mobil biriminin başında yaklaşık 3 yıldır JK Shin bulunuyor. Ancak, şirketin özellikle son dönemlerde kâr elde edememesinden mütevellit, koltuğa şirketin AR-GE bölümünden sorumlu olan getirildi. JK Shin ise bu [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/samsung-mobil-biriminin-basindaki-isim-degisti/">Samsung&#8217;un mobil biriminin başındaki isim değişti</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>Samsung&#8217;un mobil biriminin başında yaklaşık üç yıldır görev yapan isim değiştirildi.</strong></p>
+<p>Birbiri ardına yeni modellerini hazırlayarak akıllı telefon piyasasında ve özellikle de Android cephesinde pazar payını artırma üzerine yoğunlaşan Samsung&#8217;un mobil biriminin başında yaklaşık 3 yıldır JK Shin bulunuyor. Ancak, şirketin özellikle son dönemlerde kâr elde edememesinden mütevellit, koltuğa şirketin AR-GE bölümünden sorumlu olan getirildi.</p>
+<p>JK Shin ise bu alandaki görevine Samsung&#8217;da CEO yardımcısı olarak devam edecek ve mobil tarafta da yine şirketin ilerleyen süreçteki önemli kozu olacak.</p>
+<p>Elbette bu değişikliğin önümüzdeki sürece nasıl yansıyacak hep beraber göreceğiz.</p>
+<p>&nbsp;</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/samsung-mobil-biriminin-basindaki-isim-degisti/">Samsung&#8217;un mobil biriminin başındaki isim değişti</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/samsung-mobil-biriminin-basindaki-isim-degisti/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Günün Fırsatları (1 Aralık 2015)</title>
+		<link>http://www.teknolog.com/gunun-firsatlari-1-aralik-2015/</link>
+		<comments>http://www.teknolog.com/gunun-firsatlari-1-aralik-2015/#comments</comments>
+		<pubDate>Tue, 01 Dec 2015 10:57:42 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Günün Fırsatları]]></category>
+		<category><![CDATA[fırsat]]></category>
+		<category><![CDATA[günün fırsatları]]></category>
+		<category><![CDATA[iphone 5s]]></category>
+		<category><![CDATA[LG]]></category>
+		<category><![CDATA[teknosa preo]]></category>
+		<category><![CDATA[tp-link]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712704</guid>
+		<description><![CDATA[<p>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik. TEKNOSA PREO P1 AKILLI TELEFON 749,00 TL 699,00 TL FIRSATI KAP! Apple iPhone 5s 16 GB ( Space Gray ) 2368,99 TL 1699,00 TL FIRSATI KAP! &#160; &#160; LG 42LF580N 42&#8243;106 Ekran Full HD Smart LED Ekran 1599,01 TL 1349,01 TL FIRSATI KAP! &#160; TP-LINK TL-WA854RE 300 Mbps N [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-1-aralik-2015/">Günün Fırsatları (1 Aralık 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2><strong>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik.<br />
+</strong></h2>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/125071563-1-teknosa_preo_p1_akilli_telefon.jpg"><img class="wp-image-1214712705 size-medium alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/12/125071563-1-teknosa_preo_p1_akilli_telefon-300x229.jpg" alt="125071563-1-teknosa_preo_p1_akilli_telefon" width="300" height="229" /></a></h3>
+<h3 class="product-name">
+TEKNOSA PREO P1 AKILLI TELEFON</h3>
+<h3 class="product-name">
+<del><span style="color: #800000;">749,00 TL</span></del><br />
+<span style="color: #ff0000;">699,00 TL</span></h3>
+<h2><strong><a href="http://www.teknosa.com/urunler/125071563/teknosa-preo-p1-akilli-telefon">FIRSATI KAP!<br />
+</a></strong></h2>
+<h3></h3>
+<h2 style="text-align: left;"><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.48.01.png"><img class="size-medium wp-image-1214712706 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.48.01-300x298.png" alt="Ekran Resmi 2015-12-01 12.48.01" width="300" height="298" /></a></h2>
+<h2 style="text-align: left;">
+Apple iPhone 5s 16 GB ( Space Gray )</h2>
+<h2 style="text-align: left;">
+<del><span style="color: #800000;">2368,99 TL</span></del><br />
+<span style="color: #ff0000;">1699,00 TL</span></h2>
+<h2><strong><a href="http://www.hepsiburada.com/apple-iphone-5s-16-gb-space-gray-p-TELCEPIPH5S6GBSI-N">FIRSATI KAP!</a></strong></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.52.31.png"><img class="size-medium wp-image-1214712708 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.52.31-300x295.png" alt="Ekran Resmi 2015-12-01 12.52.31" width="300" height="295" /></a></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'"></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'">LG 42LF580N 42&#8243;106 Ekran Full HD Smart LED Ekran</h3>
+<h3 class="product-name" data-bind="markupText: 'productName'">
+<span style="color: #800000;"><del>1599,01 TL</del></span><br />
+<span style="color: #ff0000;">1349,01 TL</span></h3>
+<h2><a href="http://www.hepsiburada.com/lg-42lf580n-42-106-ekran-full-hd-smart-led-ekran-p-EVLG42LF580N"><strong>FIRSATI KAP!</strong></a></h2>
+<p>&nbsp;</p>
+<p><a href="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.54.43.png"><img class="size-medium wp-image-1214712709 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/12/Ekran-Resmi-2015-12-01-12.54.43-300x283.png" alt="Ekran Resmi 2015-12-01 12.54.43" width="300" height="283" /></a></p>
+<h3></h3>
+<h3>TP-LINK TL-WA854RE 300 Mbps N Kablosuz Wall Plug Kolay Kurulumlu Evrensel Menzil Genişletici</h3>
+<h3 class="product-name" data-bind="markupText: 'productName'"><span style="color: #800000;"><del>89,90 TL</del></span><br />
+<span style="color: #ff0000;">49,00 TL</span></h3>
+<h2><strong><a href="http://www.hepsiburada.com/tp-link-tl-wa854re-300-mbps-n-kablosuz-wall-plug-kolay-kurulumlu-evrensel-menzil-genisletici-p-BD501264">FIRSATI KAP!</a></strong></h2>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-1-aralik-2015/">Günün Fırsatları (1 Aralık 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/gunun-firsatlari-1-aralik-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google&#8217;ın sürücüsüz otomobili, yayaları görsel ve işitsel olarak bilgilendirecek</title>
+		<link>http://www.teknolog.com/googlein-surucusuz-otomobili-yayalari-gorsel-ve-isitsel-olarak-bilgilendirecek/</link>
+		<comments>http://www.teknolog.com/googlein-surucusuz-otomobili-yayalari-gorsel-ve-isitsel-olarak-bilgilendirecek/#comments</comments>
+		<pubDate>Mon, 30 Nov 2015 15:29:29 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Haber]]></category>
+		<category><![CDATA[Manşet]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[google sürücüsüz otomobil]]></category>
+		<category><![CDATA[sürücüsüz otomobil]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712695</guid>
+		<description><![CDATA[<p>Google&#8217;ın sürücüsüz otomobili, şirketin aldığı yeni patente göre görüntülü ve sesli şekilde yayaları uyaracak. Bildiğiniz gibi Google, uzunca bir süredir &#8220;sürücüsüz otomobil&#8221; teknolojileri üzerine çalışıyor. Hatta birkaç hafta önce test amaçlı olarak trafiğe çıkartılan sürücüsüz otomobil, yavaş gittiği gerekçe gösterilerek polis tarafından çevirilmiş ve cezai işlem konusu gündeme gelmişti. İlgili Haber: Polis, Google&#8217;ın sürücüsüz otomobilini [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/googlein-surucusuz-otomobili-yayalari-gorsel-ve-isitsel-olarak-bilgilendirecek/">Google&#8217;ın sürücüsüz otomobili, yayaları görsel ve işitsel olarak bilgilendirecek</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>Google&#8217;ın sürücüsüz otomobili, şirketin aldığı yeni patente göre görüntülü ve sesli şekilde yayaları uyaracak.</strong></p>
+<p>Bildiğiniz gibi Google, uzunca bir süredir &#8220;sürücüsüz otomobil&#8221; teknolojileri üzerine çalışıyor. Hatta birkaç hafta önce test amaçlı olarak trafiğe çıkartılan sürücüsüz otomobil, yavaş gittiği gerekçe gösterilerek polis tarafından çevirilmiş ve cezai işlem konusu gündeme gelmişti.</p>
+<p><strong>İlgili Haber:</strong> <a href="http://www.teknolog.com/polis-googlein-surucusuz-otomobilini-yavas-gittigi-icin-cevirdi/">Polis, Google&#8217;ın sürücüsüz otomobilini yavaş gittiği için çevirdi</a></p>
+<p>Hal böyle olunca, sürücüsüz otomobillere karşı merak edilen ayrıntılar da merak ediliyor ve polis tarafından sürücüsüz Google otomobilinin çevirilmesi sonucunda trafikteki birçok araç ve yaya da durmuş, konuyu uzaktan merakla takip etmişti. Sürücüsüz otomobillere ilişkin en çok merak edilen ayrıntılardan birisi ise yayalarla olan iletişimin nasıl sağlandığı&#8230; Evet; tüm kontrol özel mekanizma tarafından gerçekleştiriliyor ama yayalarla olan durum halen daha merak konusu&#8230;</p>
+<p><a href="http://www.teknolog.com/wp-content/uploads/2015/11/google-sürücüsüz-otomobil.png"><img class="alignnone size-large wp-image-1214712696" src="http://www.teknolog.com/wp-content/uploads/2015/11/google-sürücüsüz-otomobil-635x239.png" alt="google-sürücüsüz-otomobil" width="635" height="239" /></a></p>
+<p>Google, yeni aldığı patentle birlikte sürücüsüz otomobilleriyle yayaların iletişimi çok daha kolay getirmeyi hedefliyor. Alınan patenti kısaca özetleyecek olursak; sürücüsüz otomobilin çevresinde toplamda üç adet ekran bulunuyor ve bu ekranlar çeşitli uyarılarla birlikte yayaları görsel bir şekilde bilgilendiriyor. Bu ekranlar üzerinden yayanın geçiş bilgisi gibi durumlar belirtiliyor. Ek olarak yalnızca görsel olarak değil; aynı zamanda aracın dışına yerleştirilen hoparlörler sayesinde uyarı mekanizması sesli bir şekilde de çalışıyor. Görme zorluğu çeken kişiler için bu tarz sesli bir uyarı sisteminin olması da elzem.</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/googlein-surucusuz-otomobili-yayalari-gorsel-ve-isitsel-olarak-bilgilendirecek/">Google&#8217;ın sürücüsüz otomobili, yayaları görsel ve işitsel olarak bilgilendirecek</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/googlein-surucusuz-otomobili-yayalari-gorsel-ve-isitsel-olarak-bilgilendirecek/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>&#8220;Akıllı bere&#8221; ile telefon görüşmesi yapmak mümkün</title>
+		<link>http://www.teknolog.com/telefon-gorusmeleri-yapmayi-saglayan-akilli-bere-hazirlandi/</link>
+		<comments>http://www.teknolog.com/telefon-gorusmeleri-yapmayi-saglayan-akilli-bere-hazirlandi/#comments</comments>
+		<pubDate>Mon, 30 Nov 2015 12:55:48 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Haber]]></category>
+		<category><![CDATA[Manşet]]></category>
+		<category><![CDATA[akıllı bere]]></category>
+		<category><![CDATA[bere]]></category>
+		<category><![CDATA[bluetooth]]></category>
+		<category><![CDATA[giyilebilir teknoloji]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712686</guid>
+		<description><![CDATA[<p>Akıllı bereler sayesinde ellerinizi cebinizden çıkartmadan müzik dinlemek ve telefon görüşmeleri yapmak mümkün. &#8220;Giyilebilir teknoloji&#8221; kapsamındaki ürünler, hayatımızın her alanında bize eşlik etmeye devam ediyor. Akıllı saatler, akıllı bileklikler ve VR teknolojisine sahip &#8220;akıllı gözlükler&#8221; derken artık soğuktan korunmak amacıyla kullanılan bereler de akıllandı! Hazırlanan akıllı bereler, Bluetooth teknolojisi sayesinde akıllı telefon ya da tabletlerle [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/telefon-gorusmeleri-yapmayi-saglayan-akilli-bere-hazirlandi/">&#8220;Akıllı bere&#8221; ile telefon görüşmesi yapmak mümkün</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>Akıllı bereler sayesinde ellerinizi cebinizden çıkartmadan müzik dinlemek ve telefon görüşmeleri yapmak mümkün.</strong></p>
+<p>&#8220;Giyilebilir teknoloji&#8221; kapsamındaki ürünler, hayatımızın her alanında bize eşlik etmeye devam ediyor. Akıllı saatler, akıllı bileklikler ve VR teknolojisine sahip &#8220;akıllı gözlükler&#8221; derken artık soğuktan korunmak amacıyla kullanılan bereler de akıllandı!</p>
+<p><a href="http://www.teknolog.com/wp-content/uploads/2015/11/akıllı-bere3.png"><img class="alignnone size-large wp-image-1214712689" src="http://www.teknolog.com/wp-content/uploads/2015/11/akıllı-bere3-635x458.png" alt="akıllı-bere3" width="635" height="458" /></a></p>
+<p>Hazırlanan akıllı bereler, Bluetooth teknolojisi sayesinde akıllı telefon ya da tabletlerle bağlantı kurarak; kullanılabiliyor. Akıllı berelerin ana çıkış noktası, telefonla görüşme sırasında kullanıcının elini cebinden çıkartmak zorunda olması diyebiliriz. Akıllı bereler bu devri kapatıyor ve az önce de bahsettiğimiz şekilde Bluetooth bağlantısı aracılığıyla telefonla görüşmenizi sağlıyor. Bere içerisine özel olarak yerleştirilen hoparlör ve mikrofonlarla birlikte görüşme gerçekleştirilirken aynı zamanda bu teknoloji sayesinde telefon ya da tabletten müzik de dinlenebiliyor.</p>
+<p>Ayrıca berelere ses kısma / ses açma düğmeleri de entegre edilmiş. Böylece görüşmelerde yeterli gelmezse ses şiddeti artırılabiliyor. Elbette bu berelerin şarj edilmesi gerekiyor ve klasik olarak USB arabirimi üzerinden bilgisayar üzerinden bile kolaylıkla şarj işlemi gerçekleştirilebiliyor.</p>
+<div class="content">Berelerin kirlenmesi durumunda içteki mikrofon / hoparlör mekanizması ve düğmeler çıkartılarak; yıkama işlemi de gerçekleştirilebiliyor.</div>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/telefon-gorusmeleri-yapmayi-saglayan-akilli-bere-hazirlandi/">&#8220;Akıllı bere&#8221; ile telefon görüşmesi yapmak mümkün</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/telefon-gorusmeleri-yapmayi-saglayan-akilli-bere-hazirlandi/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Günün Fırsatları (30 Kasım 2015)</title>
+		<link>http://www.teknolog.com/gunun-firsatlari-30-kasim-2015/</link>
+		<comments>http://www.teknolog.com/gunun-firsatlari-30-kasim-2015/#comments</comments>
+		<pubDate>Mon, 30 Nov 2015 12:30:09 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Günün Fırsatları]]></category>
+		<category><![CDATA[günün fırsatları]]></category>
+		<category><![CDATA[HP]]></category>
+		<category><![CDATA[LG]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Nokia]]></category>
+		<category><![CDATA[Samsung]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712678</guid>
+		<description><![CDATA[<p>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik. HP DESKJET 1510 ALL-IN-ONE INKJET MULTIFUNCTION YAZICI 169,00 TL 99,00 TL FIRSATI KAP! &#160; Microsoft Lumia 640 XL LTE Siyah 948,90 TL 874,90 TL FIRSATI KAP! &#160; &#160; LG G3 D855 32GB 2199,00 TL 1199,00 TL FIRSATI KAP! &#160; &#160; &#160; &#160; Samsung 40J6270 40İnç 101Cm 600Hz Quad-Core Full [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-30-kasim-2015/">Günün Fırsatları (30 Kasım 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2><strong>Alışveriş sitelerindeki günün teknoloji fırsatlarını sizler için derledik.<br />
+</strong></h2>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/11/125090797-1-hp_deskjet_1510_all_in_one_inkjet_multifunction_ya.jpg"><img class="size-medium wp-image-1214712680 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/11/125090797-1-hp_deskjet_1510_all_in_one_inkjet_multifunction_ya-300x229.jpg" alt="125090797-1-hp_deskjet_1510_all_in_one_inkjet_multifunction_ya" width="300" height="229" /></a></h3>
+<h3 class="product-name">HP DESKJET 1510 ALL-IN-ONE INKJET MULTIFUNCTION YAZICI<br />
+<del><span style="color: #800000;">169,00 TL</span></del><br />
+<span style="color: #ff0000;">99,00 TL</span></h3>
+<h2><strong><a href="http://www.teknosa.com/urunler/125090797/hp-deskjet-1510-all-in-one-inkjet-multifunction-yazici">FIRSATI KAP!<br />
+</a></strong></h2>
+<p>&nbsp;</p>
+<h3></h3>
+<h2 style="text-align: left;"><a href="http://www.teknolog.com/wp-content/uploads/2015/11/nokia-lumia-640xl.jpg"><img class="size-medium wp-image-1214712681 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/11/nokia-lumia-640xl-300x262.jpg" alt="nokia-lumia-640xl" width="300" height="262" /></a></h2>
+<h2 style="text-align: left;"></h2>
+<h2 style="text-align: left;">Microsoft Lumia 640 XL LTE Siyah<br />
+<del><span style="color: #800000;">948,90 TL</span></del><br />
+<span style="color: #ff0000;">874,90 TL</span></h2>
+<h2><strong><a href="http://www.hizlial.com/microsoft-lumia-640-xl-lte-siyah/10738533">FIRSATI KAP!</a></strong></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/11/lg-g3.png"><img class="size-medium wp-image-1214712682 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/11/lg-g3-300x250.png" alt="lg-g3" width="300" height="250" /></a></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'"></h3>
+<h3 class="product-name" data-bind="markupText: 'productName'">LG G3 D855 32GB<br />
+<span style="color: #800000;"><del>2199,00 TL</del></span><br />
+<span style="color: #ff0000;">1199,00 TL</span></h3>
+<h2><a href="http://www.hepsiburada.com/lg-g3-d855-32gb-p-TELCEPLGG332-G"><strong>FIRSATI KAP!</strong></a></h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://www.teknolog.com/wp-content/uploads/2015/11/181076357003t4.jpg"><img class="size-medium wp-image-1214712683 alignleft" src="http://www.teknolog.com/wp-content/uploads/2015/11/181076357003t4-300x262.jpg" alt="181076357003t4" width="300" height="262" /></a></h3>
+<h3></h3>
+<h3>Samsung 40J6270 40İnç 101Cm 600Hz Quad-Core Full HD Tizen Smart Led Tv</h3>
+<h3 class="product-name" data-bind="markupText: 'productName'">
+<span style="color: #800000;"><del>2199,00 TL</del></span><br />
+<span style="color: #ff0000;">1749,00 TL</span></h3>
+<h2><a href="http://www.hizlial.com/samsung-40j6270-40inc-101cm-600hz-quad-core-full-hd-tizen-smart-led-tv/10763570"><strong>FIRSATI KAP!</strong></a></h2>
+<p>&nbsp;</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/gunun-firsatlari-30-kasim-2015/">Günün Fırsatları (30 Kasım 2015)</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/gunun-firsatlari-30-kasim-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Samsung, drone üretmeye hazırlanıyor</title>
+		<link>http://www.teknolog.com/samsung-drone-uretmeye-hazirlaniyor/</link>
+		<comments>http://www.teknolog.com/samsung-drone-uretmeye-hazirlaniyor/#comments</comments>
+		<pubDate>Mon, 30 Nov 2015 11:50:41 +0000</pubDate>
+		<dc:creator><![CDATA[Yunus Emre Şahin]]></dc:creator>
+				<category><![CDATA[Haber]]></category>
+		<category><![CDATA[Manşet]]></category>
+		<category><![CDATA[drone]]></category>
+		<category><![CDATA[drone teknolojileri]]></category>
+		<category><![CDATA[Samsung]]></category>
+		<category><![CDATA[samsung teknolojileri]]></category>
+
+		<guid isPermaLink="false">http://www.teknolog.com/?p=1214712675</guid>
+		<description><![CDATA[<p>Samsung da drone teknolojileri üzerinde çalışmalara başlamış durumda. Drone teknolojilerinin gelişmesiyle beraber; birçok farklı şirket, bu alana özel yatırımlar yapmaya başladı. Geçtiğimiz dönemlerde aralarında Google ve Facebook&#8217;un da bulunduğu dev birçok şirket drone&#8217;larla alakalı olarak satınalmalar gerçekleştirip, geleceğe yatırımlar yaptılar. Son olarak; Samsung&#8217;un da benzer bir şekilde drone teknolojileri için önemli yatırımlar yapacağı gündeme geldi. [&#8230;]</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/samsung-drone-uretmeye-hazirlaniyor/">Samsung, drone üretmeye hazırlanıyor</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>Samsung da drone teknolojileri üzerinde çalışmalara başlamış durumda.</strong></p>
+<p>Drone teknolojilerinin gelişmesiyle beraber; birçok farklı şirket, bu alana özel yatırımlar yapmaya başladı. Geçtiğimiz dönemlerde aralarında Google ve Facebook&#8217;un da bulunduğu dev birçok şirket drone&#8217;larla alakalı olarak satınalmalar gerçekleştirip, geleceğe yatırımlar yaptılar.</p>
+<p>Son olarak; Samsung&#8217;un da benzer bir şekilde drone teknolojileri için önemli yatırımlar yapacağı gündeme geldi. Çeşitli endüstri kaynakları tarafından belirtilenlere göre Samsung, önümüzdeki süreçte &#8220;nesnelerin interneti&#8221; kapsamında drone çalışmaları gerçekleştirecek. Samsung&#8217;un bu konuda ilerlemek adına çeşitli laboratuvarlar kurduğu bilgisi de veriliyor.</p>
+<p><em>Not: Görsel, DJI Phantom 3 modeline aittir.</em></p>
+<p>&nbsp;</p>
+<p>Sonrası <a rel="nofollow" href="http://www.teknolog.com/samsung-drone-uretmeye-hazirlaniyor/">Samsung, drone üretmeye hazırlanıyor</a> <a rel="nofollow" href="http://www.teknolog.com">TEKNOLOG</a> ilk ortaya çıktı.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.teknolog.com/samsung-drone-uretmeye-hazirlaniyor/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

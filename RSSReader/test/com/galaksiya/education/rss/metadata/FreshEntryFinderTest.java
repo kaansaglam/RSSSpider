@@ -1,5 +1,7 @@
 package com.galaksiya.education.rss.metadata;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -9,13 +11,14 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Scanner;
+
 import org.junit.Test;
-import static org.junit.Assert.*;
+
 import com.galaksiya.education.rss.feed.FreshEntryFinder;
 import com.galaksiya.education.rss.feed.RSSReader;
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.io.FeedException;
-import java.util.Scanner;
 
 public class FreshEntryFinderTest {
 
@@ -23,10 +26,9 @@ public class FreshEntryFinderTest {
 
 	// create a String from the contents of a file
 	public String readFile() throws FileNotFoundException {
-
+		String filePath = getClass().getResource("FreshEntryFinderTestFile.txt").getPath();
 		@SuppressWarnings("resource")
-		String textFile = new Scanner(new File("/home/galaksiya/Desktop/XMLTest.txt"), "UTF-8").useDelimiter("\\A")
-				.next();
+		String textFile = new Scanner(new File(filePath), "UTF-8").useDelimiter("\\A").next();
 		return textFile;
 	}
 
@@ -36,7 +38,7 @@ public class FreshEntryFinderTest {
 		Iterator<?> itEntries = new RSSReader().parseFeed(readFile());
 		SyndEntry entry = (SyndEntry) itEntries.next();
 		feedTimeMap.put(REUTERS, null);
-		SyndEntry freshEntry = new FreshEntryFinder().compareDates(entry, feedTimeMap, "Retuers");
+		SyndEntry freshEntry = new FreshEntryFinder().isFresh(entry, feedTimeMap.get("missingsource"));
 		assertEquals(null, freshEntry);
 	}
 
@@ -49,7 +51,7 @@ public class FreshEntryFinderTest {
 		SyndEntry entry = (SyndEntry) itEntries.next();
 		feedTimeMap.put(REUTERS, date);
 
-		SyndEntry freshEntry = new FreshEntryFinder().compareDates(entry, feedTimeMap, REUTERS);
+		SyndEntry freshEntry = new FreshEntryFinder().isFresh(entry, feedTimeMap.get(REUTERS));
 
 		assertEquals(entry.getTitle(), freshEntry.getTitle());
 
@@ -59,12 +61,13 @@ public class FreshEntryFinderTest {
 	public void compareDifferentDates() throws IllegalArgumentException, FeedException, IOException {
 		Map<String, Date> feedTimeMap = new HashMap<String, Date>();
 		Iterator<?> itEntries = new RSSReader().parseFeed(readFile());
-		Iterator<?> itEntriesTest = new RSSReader().readRSSFeed("http://www.teknolog.com/feed/");
+		Iterator<?> itEntriesTest = new RSSReader().readRSSFeed("https://gaiadergi.com/feed/");
 
 		SyndEntry entry = (SyndEntry) itEntries.next();
-		feedTimeMap.put(REUTERS, entry.getPublishedDate());
+
 		SyndEntry entryTest = (SyndEntry) itEntriesTest.next();
-		SyndEntry freshEntry = new FreshEntryFinder().compareDates(entryTest, feedTimeMap, "Retuers");
+		feedTimeMap.put(REUTERS, entryTest.getPublishedDate());
+		SyndEntry freshEntry = new FreshEntryFinder().isFresh(entry, feedTimeMap.get(REUTERS));
 		assertEquals(null, freshEntry);
 	}
 }
