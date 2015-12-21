@@ -9,8 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import com.galaksiya.education.writer.*;
 
-import org.apache.log4j.Logger;
-
 import com.google.gson.Gson;
 
 public class FeedWriterServlet extends HttpServlet {
@@ -19,8 +17,6 @@ public class FeedWriterServlet extends HttpServlet {
 	 * send it to writer class
 	 */
 	private static final long serialVersionUID = 1L;
-
-	private static final Logger log = Logger.getLogger(FeedWriterServlet.class);
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

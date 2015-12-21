@@ -22,7 +22,7 @@ public class FeedMetaDataManager {
 	public BufferedReader br;
 
 	public BufferedReader menageMetaData() throws IOException {
-		br = new BufferedReader(new FileReader(getClass().getResource("WriterTestFile.txt").getPath()));
+		br = new BufferedReader(new FileReader(Info.RSS_FILE));
 		return br;
 	}
 
