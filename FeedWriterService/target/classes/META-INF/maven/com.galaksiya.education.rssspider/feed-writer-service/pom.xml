@@ -49,6 +49,7 @@
 			<groupId>com.galaksiya.education.rssspider</groupId>
 			<artifactId>entity-writer</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+
 		</dependency>
 	</dependencies>
 </project>

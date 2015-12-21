@@ -1,4 +1,3 @@
-
 package com.galaksiya.education.rss.feed;
 
 import java.io.BufferedReader;

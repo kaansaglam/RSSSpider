@@ -1,5 +1,6 @@
 package com.galaksiya.education.rss.feed;
 
+
 import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
@@ -24,6 +25,7 @@ public class RSSReaderTest {
 
 		Iterator<?> itEntries = null;
 		String testUrl = new FeedMetaDataManager().readSourceURL(1);
+
 		URL url = new URL(testUrl);
 		HttpURLConnection httpcon = (HttpURLConnection) url.openConnection();
 		SyndFeedInput input = new SyndFeedInput();

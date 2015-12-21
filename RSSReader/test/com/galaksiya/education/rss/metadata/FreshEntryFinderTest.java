@@ -68,6 +68,7 @@ public class FreshEntryFinderTest {
 		SyndEntry entryTest = (SyndEntry) itEntriesTest.next();
 		feedTimeMap.put(REUTERS, entryTest.getPublishedDate());
 		SyndEntry freshEntry = new FreshEntryFinder().isFresh(entry, feedTimeMap.get(REUTERS));
+
 		assertEquals(null, freshEntry);
 	}
 }

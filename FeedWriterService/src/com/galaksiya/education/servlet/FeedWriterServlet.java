@@ -36,5 +36,6 @@ public class FeedWriterServlet extends HttpServlet {
 		EntryWriteRequest obj = gson.fromJson(sb.toString(), EntryWriteRequest.class);
 		// call writer method.
 		new EntryWriter().writeFeedEntry(obj);
+
 	}
 }

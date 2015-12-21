@@ -4,13 +4,10 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.text.ParseException;
 import java.util.Iterator;
-
 import javax.xml.parsers.ParserConfigurationException;
-
 import org.apache.log4j.Logger;
 import org.jdom.JDOMException;
 import org.xml.sax.SAXException;
-
 import com.galaksiya.education.rss.feed.RSSReader;
 import com.galaksiya.education.rss.interaction.MenuPrinter;
 import com.galaksiya.education.rss.interaction.UserInteraction;

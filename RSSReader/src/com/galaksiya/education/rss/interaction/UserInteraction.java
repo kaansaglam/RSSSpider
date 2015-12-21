@@ -55,6 +55,7 @@ public class UserInteraction {
 		System.out.println("\nPress a for add this news source in the file :\n"
 				+ "\nPress any button for continue without save...");
 		return scanner.next().charAt(0);
+
 	}
 
 	public char addAlreadyExistRecord() {

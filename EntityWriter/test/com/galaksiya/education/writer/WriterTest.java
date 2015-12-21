@@ -15,11 +15,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class WriterTest {
-	
+
 	private static final Logger log = Logger.getLogger(WriterTest.class);
 
 	private String filePath = getClass().getResource("WriterTestFile.txt").getPath();
-	
+
 	private EntryWriteRequest entryObj = new EntryWriteRequest();
 
 	@Before
@@ -79,6 +79,7 @@ public class WriterTest {
 		while (txtscan.hasNextLine()) {
 			String str = txtscan.nextLine();
 			if (str.contains("test title")) {
+
 				isFound = 1;
 			}
 		}

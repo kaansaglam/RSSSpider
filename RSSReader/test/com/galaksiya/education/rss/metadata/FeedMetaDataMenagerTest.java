@@ -97,6 +97,7 @@ public class FeedMetaDataMenagerTest {
 	}
 
 	public String[] getFileData(String sourceUrl) throws IOException {
+
 		String line = "";
 		String cvsSplitBy = ",";
 		BufferedReader br = new BufferedReader(new FileReader("/home/galaksiya/Desktop/RSSfile.csv"));

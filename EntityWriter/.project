@@ -3,8 +3,10 @@
 	<name>EntityWriter</name>
 	<comment></comment>
 	<projects>
+
 		<project>FeedWriterService</project>
 		<project>RSSReader</project>
+
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -21,7 +21,7 @@ public class FreshEntryFinder {
 		if (lastFeedDate != null && entry.getPublishedDate().after(lastFeedDate)) {
 			freshEntry = entry;
 		}
-		
+
 		return freshEntry;
 	}
 }
